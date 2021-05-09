@@ -1,0 +1,123 @@
+<head>
+    <title>Contact Us</title>
+    <style>
+        body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.42),rgba(0, 0, 0, 0.42)),url('https://cdn.vox-cdn.com/thumbor/y-GIwaGD2Y-cg-3xwxaLgSmrzT4=/0x0:5665x3777/1200x800/filters:focal(2380x1436:3286x2342)/cdn.vox-cdn.com/uploads/chorus_image/image/67779554/AdobeStock_266551660.0.jpeg');
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact{
+    padding: 4%;
+    height: 400px;
+}
+.col-md-3{
+    margin-top: 8%;
+    background: rgba(233, 255, 229, 0.747);
+    padding: 4%;
+    border-top-left-radius: 0.9rem;
+    border-bottom-left-radius: 0.9rem;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    margin-top: 8%;
+    background: rgba(2, 49, 53, 0.9);
+    padding: 3%;
+    border-top-right-radius: 0.9rem;
+    border-bottom-right-radius: 0.9rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    margin-top: 1.5%;
+    background: white;
+    color: #25274d;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+
+.icons{
+    transition: 0.3s;
+    margin-top: 60%;
+    margin-left: 9%;
+}
+
+.icons:hover{
+    transform: scale(1.25);
+}
+
+.contact-form button:hover{
+    color: white;
+    background-color: rgba(146, 255, 124, 0.87);
+}
+    </style>
+</head>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<div class="container contact">
+	<div class="row">
+		<div class="col-md-3">
+			<div class="contact-info">
+				<img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image" style="margin-left: 36%;"/>
+				<h2 style="text-align: center;">Contact Us</h2>
+				<h4 style="text-align: center;">We would love to hear from you !</h4>
+			</div>
+            <a href="https://www.instagram.com/___akxphotography___?r=nametag"><img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" alt="" height="30px" class="icons"></a>
+            <a href="https://twitter.com/AKSashank1?s=09"><img src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c53e.png" alt="" height="30px" class="icons"></a>
+            <a href="https://www.linkedin.com/in/krishna-sashank-allimpalli-6527b9201"><img src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG38.png" alt="" height="30px" class="icons"></a>
+            <a href="https://www.facebook.com/"><img src="https://1000logos.net/wp-content/uploads/2016/11/Facebook-logo.png" alt="" height="30px" class="icons"></a>
+		</div>
+		<div class="col-md-9">
+			<div class="contact-form">
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="fname" style="color: white;">First Name:</label>
+				  <div class="col-sm-10">          
+					<input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="lname" style="color: white;">Last Name:</label>
+				  <div class="col-sm-10">          
+					<input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="email" style="color: white;">Email:</label>
+				  <div class="col-sm-10">
+					<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="comment" style="color: white;">Comment:</label>
+				  <div class="col-sm-10">
+					<textarea class="form-control" rows="5" id="comment"></textarea>
+				  </div>
+				</div>
+				<div class="form-group">        
+				  <div class="col-sm-offset-2 col-sm-10">
+					   <button type="submit" class="btn btn-default" onclick="myFunction()">Submit</button>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	function myFunction() {
+	  alert("Thank You for your Feedback!!");
+	}
+	</script>
